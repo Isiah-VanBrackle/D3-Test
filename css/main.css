@@ -1,0 +1,82 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #40445b;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  margin: 2% 0;
+}
+
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  color: #d0d2dccc;
+}
+
+#workspace {
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.chart {
+  height: 600px;
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-container {
+  padding: 20px;
+}
+
+.social-container a {
+  color: #c0f495;
+  text-decoration: none;
+}
+
+.social-container a:hover {
+  text-decoration: underline;
+}
+
+.social-name {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  color: #d0d2dccc;
+}
